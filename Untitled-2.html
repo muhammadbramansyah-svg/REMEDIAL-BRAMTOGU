@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PT BROOO</title>
+    <link rel="stylesheet" href="style.css">  
+
+</head>
+<body>
+
+    <div class="navbar">
+        <div class="logo">
+            <h2>Web Deplopment</h2>
+        </div>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">Tentang Kami</a>
+            <a href="#portfolio">Portofolio</a>
+            <a href="#contact">Kontak</a>
+        </nav>
+    </div>
+
+    <header id="home" class="hero">
+        <h1>Membangun Solusi Digital Inovatif</h1>
+        <p>Kami adalah tim ahli front-end yang siap mewujudkan ide Anda menjadi pengalaman web yang luar biasa.</p>
+        <a href="#contact" class="cta-button">Mulai Proyek Anda</a>
+    </header>
+
+    <section id="about" class="section">
+        <h2>Tentang Kami</h2>
+        <p class="description" style="max-width: 800px; margin: 0 auto;">
+            Kami adalah tim 4 Front-end Developer yang fokus pada kualitas kode, performa, dan *user experience*. 
+            Kami menggunakan teknologi modern seperti Next.js/Vue.js (untuk proyek skala besar) dan memiliki keahlian dalam HTML5, CSS3, dan JavaScript murni.
+        </p>
+        <div class="portfolio-grid" style="margin-top: 40px;">
+            <div class="card">
+                <h3>Visi</h3>
+                <p>Menjadi pengembang web terkemuka yang menyediakan solusi yang mudah diakses dan berkinerja tinggi.</p>
+            </div>
+            <div class="card">
+                <h3>Misi</h3>
+                <p>Mengintegrasikan desain terbaik dengan teknologi terkini untuk memberikan kepuasan pelanggan maksimal.</p>
+            </div>
+            <div class="card">
+                <h3>Nilai</h3>
+                <p>Kolaborasi, Inovasi, Kualitas, dan fokus pada *Accessibility* (A11Y).</p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="portfolio" class="section">
+        <h2>Portofolio Kami</h2>
+        <div class="portfolio-grid">
+            <div class="card">
+                <h3>Desain UI/UX</h3>
+                <p>Memastikan antarmuka yang intuitif dan menarik, berfokus pada pengalaman pengguna.</p>
+            </div>
+            <div class="card">
+                <h3>Optimasi Performa</h3>
+                <p>Menggunakan teknik *code splitting* dan optimasi gambar untuk skor Lighthouse yang tinggi.</p>
+            </div>
+            <div class="card">
+                <h3>Web Responsif</h3>
+                <p>Situs yang berfungsi sempurna di semua perangkat, dari desktop hingga smartphone.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section" style="background-color: var(--secondary-color);">
+        <h2>Hubungi Kami</h2>
+        <form id="contactForm" class="contact-form">
+            <label for="name">Nama Lengkap</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Pesan Anda</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
